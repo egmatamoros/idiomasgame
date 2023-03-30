@@ -1211,7 +1211,7 @@ basketball:baloncesto
 baskets:las cestas
 bat:murci"e/"lago
 bathroom:el bano
-be:be
+be:ser/estar
 beach:la playa
 beachboy:chico de la playa
 beacon:atalaya
