@@ -2,7 +2,7 @@
   <q-page class="flex flex-center">
     <div class="contenedorTar">
       <div class="columna">
-          <q-card class="my-card tarjeta" v-for="(item, key) in english" :key="key" :id="'e'+ key" @click="seleccionar(key,'e')">
+          <q-card class="my-card tarjeta bg-teal-12" v-for="(item, key) in english" :key="key" :id="'e'+ key" @click="seleccionar(key,'e')">
           <q-card-section>
             <div class="text-h6">{{item.word}}</div>
           </q-card-section>
@@ -10,7 +10,7 @@
       </div>
 
       <div class="columna">
-        <q-card class="my-card tarjeta" v-for="(item, key) in spanish"  :key="key" :id="'s'+ key" @click="seleccionar(key,'s')">
+        <q-card class="my-card tarjeta bg-teal-12" v-for="(item, key) in spanish"  :key="key" :id="'s'+ key" @click="seleccionar(key,'s')">
           <q-card-section>
             <div class="text-h6">{{item.word}}</div>
           </q-card-section>
@@ -76,7 +76,6 @@ export default {
     display: flex;
     width: 80%;
     justify-content: space-between;
-    background-color: aqua;
   }
   .tarjeta{
     margin: 10px 0px;
